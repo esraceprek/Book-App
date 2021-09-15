@@ -1,2 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-       
+.row{
+    width: auto;
+    height: auto;
+
+}
+.container{
+    width: 2000px;
+    height: 2500px;
+
+}
+.col-md-1{ 
+    position: relative;
+    width: 10%;
+   color: red;
+   font-weight: bolder;
+
+
+   
+   
+
+
+}
+
+.col-md-5{
+    position: relative;
+    width: 40%;
+    background-color: rgb(241, 240, 240);
+    height: auto;
+    padding-top: 40px;
+}
+
+.col-md-6{
+ text-align: center;
+}
+
+.btn-primary{
+    position: relative;
+    width: 50%;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    left: 230px;
+    
+}
+
+h6{
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.fa-ellipsis-h{
+    font-size: 25px;
+    color: gray;
+    position: fixed;
+    top: 10px;
+    right: 220px;
+
+}
+
+.fa-chevron-left{
+    font-size: 25px;
+    color: gray;
+ position:relative;
+ top: 30px;
+ right:380px;
+}
+.fa-chevron-right{
+    font-size: 25px;
+    color: gray;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+#Book-Name{
+    text-decoration: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+#authors{
+    text-decoration: gray;
+    text-align: left;
+}
+
+#page-number{
+    font-weight: bold;
+}
