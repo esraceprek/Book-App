@@ -17,6 +17,9 @@
 
 
 
+
+
+
     <title>Book App</title>
 </head>
 
@@ -31,66 +34,67 @@
                 <h1>book app</h1>
             </div>
 
-            
-        
 
 
 
-        <div class="col-md-5">
-            <h3> Add Book </h3>
-            <form id="new-book">
-                <div class="form-group">
-                    <label for="Book Name"> Book Name</Title></label>
-                    <input type="text" class="form-control" placeholder="Angels & Demons" id="title">
 
-                </div>
 
-                <div class="form-group">
-                    <label for="author"> Author</Title></label>
-                    <input type="text" class="form-control" placeholder="Dan Brown" id="author">
+            <div class="col-md-5">
+                <h3> Add Book </h3>
+                <form id="new-book">
+                    <div class="form-group">
+                        <label for="Book Name"> Book Name</Title></label>
+                        <input type="text" class="form-control" placeholder="Angels & Demons" id="book-name">
 
-                </div>
+                    </div>
 
-                <div class="form-group">
-                    <label for="image"> Image </Title></label>
-                    <input type="link" class="form-control" placeholder="http//bookapp.jpeg" id="image">
-                     <br> 
-                    <button type="submit" class="btn btn-primary"> Save </button>
+                    <div class="form-group">
+                        <label for="author"> Author</Title></label>
+                        <input type="text" class="form-control" placeholder="Dan Brown" id="author">
 
-            </form>
+                    </div>
 
-        </div>
-            
-        </div>
+                    <div class="form-group">
+                        <label for="image"> Image </Title></label>
+                        <input type="link" class="form-control" placeholder="http//bookapp.jpeg" id="image">
+                        <br>
+                        <button type="submit" class="btn btn-primary"> Save </button>
 
-        
+                </form>
 
-            <div class="col-md-6">
-                <h6>Books</h6>
-                <img src="https://m.media-amazon.com/images/I/413CecXf4ML.jpg" alt="">
-                <i class="fas fa-ellipsis-h"></i>
-                <i class="fas fa-chevron-left"></i>
-                <i class="fas fa-chevron-right"></i>
-                <p id="Book-Name">
-                    ANGELS & DEMONS
-                </p>
-                <p id="authors">
-                    Dan Brown
-                </p>
-
-                <p id= "page-number">
-                    1/1
-                </p>
-               
-                  
             </div>
 
-    </div>
-    
+        </div>
 
-    
+
+
+        <div class="col-md-6">
+            <h6>Books</h6>
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/413CecXf4ML._SX320_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ANGELS & DEMONS </h5>
+                    <p class="card-text">Dan Brown</p>
+                    
+                   
+                </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-right"></i>
+
+           
+
+
+        </div>
+
+    </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    
+   
+    <script src="script.js"></script>
 
 
 </body>
